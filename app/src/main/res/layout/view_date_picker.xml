@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dob_input"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtDobLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/color_state_dob_label"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/txtDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:drawableEnd="@drawable/ic_arrow_down"
+        android:fontFamily="@font/roboto_regular"
+        android:textAllCaps="false"
+        android:textColor="@color/light_grey"
+        android:textColorHint="@color/dim_grey"
+        android:textSize="15sp"
+        tools:drawableTint="@color/dim_grey" />
+
+    <View
+        android:id="@+id/viewBottomLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="9dp"
+        tools:background="@drawable/bg_dob_underline" />
+</LinearLayout>

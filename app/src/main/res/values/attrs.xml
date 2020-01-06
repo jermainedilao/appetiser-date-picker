@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppetiserDatePicker">
+        <attr name="dp_label_text" format="string" />
+
+        <!-- Color state list. Changes color when date picker is active. -->
+        <attr name="dp_label_text_color" format="color" />
+
+        <attr name="dp_text_hint" format="string" />
+        <attr name="dp_text_color_hint" format="color" />
+        <attr name="dp_text_color" format="color" />
+
+        <!-- State list drawable. Changes color when date picker is active. -->
+        <attr name="dp_line_background" format="reference" />
+    </declare-styleable>
+</resources>
